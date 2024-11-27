@@ -2,50 +2,49 @@ body{
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-
 }
+
 .list_of_students .title{
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .student_main_section{
   text-align: center;
-
- 
 }
+
+
 .student_section{
 
   border-radius: 10px;
-
-  
-  
 }
+
+
 
 .student_main_section .student_section .student_details{
 
 
 padding: 1rem;
-
-
-
 }
+
+
+
 .student_main_section .student_section .student_details .details{
 
 
   padding: 1rem;
   box-shadow: 5px 5px 10px gray;
   border-radius: 1rem;
-  
   height: 400px;
-  
-  
   }
+
+
   .student_main_section .student_section .student_details .details > p{
    font-size: 0.8rem;
    line-height: 1.9;
+   }
 
-  }
   .student_main_section .student_section .student_details .details > img{
     border: 1px solid green;
     height: 100px;
