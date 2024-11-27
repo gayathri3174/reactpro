@@ -1,5 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import Image1 from './assests/images/image1.png.webp';
+import Image2 from './assests/images/image2.png.webp';
+
 
 function App() {
   const data = [
@@ -23,6 +26,7 @@ function App() {
         
             <div className ="student_details col-sm-12 col-md-6 col-lg-4 ">
              <div className='details  '>
+              <img  src={Image1} alt='image1' />
              <h1>{student.id}</h1>
               <p>{student.name}</p>
               <p>{student.address}</p>
